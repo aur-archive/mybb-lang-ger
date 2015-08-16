@@ -1,0 +1,13 @@
+pkgbase = mybb-lang-ger
+	pkgdesc = German language package
+	pkgver = 1.6.14
+	pkgrel = 1
+	url = http://mybb.com
+	install = mybb-lang-ger.install
+	arch = any
+	license = GPL
+	depends = mybb
+	source = mybb-lang-ger::git+https://github.com/mybboard-de/MyBB-German.git#commit=6857e07d6be45e2a024b44db7fcd6e1ec62d19e5
+
+pkgname = mybb-lang-ger
+
